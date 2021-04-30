@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/08298894c6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="flex item-center justify-between">
+          <div class="left flex item-center">
+            <div class="branding">
+              <img src="./images/computer.svg" alt="" />
+            </div>
+            <div>
+              <a href="#">Home</a>
+              <a href="#about">About</a>
+              <a href="#projects">Projects</a>
+            </div>
+          </div>
+          <div class="right">
+            <a role="button" onclick="myFunction()" class="btn btn-primary dropbtn">Contact</a>
+            <div id="myDropdown" class="dropdown-content">
+              <p>Mail Id: deshpathidinesh00@gmail.com</p>
+              <a style="text-decoration: none;" href="https://www.linkedin.com/in/dineshkoushik/">Linkedin</a>
+            </div>
+          </div>
+        </nav>
+        <div class="content1 flex item-center justify-between">
+          <div class="left flex-1 flex justify-center">
+            <img src="./images/developer.jpg" alt="" />
+          </div>
+          <div class="right flex-1">
+            <h6>Dinesh Koushik</h6>
+            <h1>I'm a Software <span>Developer</span></h1>
+            <p>
+              I'm a Coder, Web Developer, Open Source Contributor and
+              Freelancer.
+            </p>
+            <div class="button">
+              <a class="btn btn-secondary" role="button" href="Resume_DineshKoushik.pdf" download="Resume_DineshKoushik.pdf">Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="about">
+      <div class="container flex item-center">
+        <div class="myImage flex-1">
+          <img src="./images/my photo.jpg" alt="" />
+        </div>
+        <div class="flex-1">
+          <h1>About <span>Me</span></h1>
+          <h3>Hey! I'm Dinesh Koushik.</h3>
+          <p>
+            I started my Open Source Contribution for a while now and have been
+            contributing to the open source projects in Github. I worked on
+            various frameworks such as ReactJS, Angular etc. As a Software Dev
+            Intern, I have worked on various projects which include the
+            combination of HTML, CSS and JS. As a Open Source Contributor, I
+            contributed from improving CSS of the project to fixing bugs in
+            HTML, CSS and JS, developing the front-end for the project.
+          </p>
+          <div class="links">
+            <a target="_blank" href="https://www.instagram.com/_monkey_d_luffyy/"
+              ><i style="color: black;" class="fab fa-instagram-square fa-3x"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/dineshkoushik/"
+              ><i style="color: black" class="fab fa-linkedin fa-3x"></i
+            ></a>
+            <a target="_blank" href="https://github.com/DineshKoushik"
+              ><i style="color: black;" class="fab fa-github-square fa-3x"></i></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h1 class="section-heading">My <span>Projects</span></h1>
+        <div class="card-wrapper">
+          <div class="card">
+            <i class="fas fa-cogs fa-3x"></i>
+            <h2>Real Estate Portal</h2>
+            <p style="margin-bottom: 45px">
+              Created a OnlineRealEstatePortal using Spring, MongoDB and
+              interfacing it with Swagger API.
+            </p>
+            <a
+              href="https://github.com/DineshKoushik/OnlineRealEstatePortal"
+              target="_blank"
+              >Link for Code</a
+            >
+          </div>
+          <div class="card">
+            <i class="fas fa-laptop-code fa-3x"></i>
+            <h2>Google Books Search</h2>
+            <p>
+              Create an app that will show a list of books available in a store.
+              User will be able to see details of books(name,author,etc).
+            </p>
+            <a
+              href="https://github.com/DineshKoushik/SAU-Feb-Batch-2/tree/main/React%20-%20Morning%2BAfternoon"
+              target="_blank"
+              >Link for Code</a
+            >
+          </div>
+          <div class="card">
+            <i class="fas fa-file-code fa-3x"></i>
+            <h2>IMDB App</h2>
+            <p>
+              Created an application that displays movie details similar to IMDB
+              app, which has Popular, TopRated and Upcoming components.
+            </p>
+            <a
+              href="https://github.com/DineshKoushik/SAU-Feb-Batch-2/tree/main/ReactNative-Morning%20%2B%20Afternoon"
+              target="_blank"
+              >Link for Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-socials">
+        <a target="_blank" href="https://www.instagram.com/_monkey_d_luffyy/"
+          ><i class="fab fa-instagram-square fa-3x"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/dineshkoushik/"
+          ><i class="fab fa-linkedin fa-3x"></i
+        ></a>
+        <a target="_blank" href="https://github.com/DineshKoushik"
+          ><i class="fab fa-github-square fa-3x"></i></i
+        ></a>
+      </div>
+      <div class="copyright">Copyright 2021 &copy;. All Rights Reserved.</div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
